@@ -8,6 +8,8 @@
 </template>
 
 <style lang="scss">
+@use "assets/css/material-index";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
