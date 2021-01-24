@@ -1,11 +1,20 @@
 <template>
-  <div class="about">
+  <div class="about mb-64">
     <h1>This is a fun only space!</h1>
     <div>
       <IconfloatingLoader
         class="mx-auto text-green-100 deep-animation"
         style="width: 320px; height: 320px"
       />
+    </div>
+    <div class="mt-64">
+      <button
+        class="p-4 text-white font-bold uppercase bg-green-500 rounded
+        hover:shadow-xl transform hover:-translate-y-1 all
+        duration-100"
+      >
+        Hover Me
+      </button>
     </div>
   </div>
 </template>
