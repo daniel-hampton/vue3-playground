@@ -7,7 +7,37 @@
         style="width: 320px; height: 320px"
       />
     </div>
-    <div class="mt-64">
+    <div class="mt-32">
+      <div class="text-2xl">Ripple Button. My Nemesis.</div>
+      <div class="flex justify-around mt-4 max-w-2xl mx-auto">
+        <button
+          v-ripple="{class: 'text-green-300'}"
+          class="p-4 uppercase font-bold bg-gray-100 rounded-xl text-green-300 shadow focus:outline-none overflow-hidden"
+        >
+          Let's Go!
+        </button>
+        <button
+          v-ripple
+          class="p-4 text-white uppercase font-bold bg-blue-500 rounded-xl shadow focus:outline-none"
+        >
+          Let's Go!
+        </button>
+        <button
+          v-ripple
+          class="p-4 text-white uppercase font-bold bg-gray-900 rounded-xl shadow focus:outline-none"
+        >
+          In Black?
+        </button>
+        <button
+          class="p-4 text-white uppercase font-bold bg-yellow-500 rounded-xl shadow focus:outline-none"
+        >
+          Center Ripple
+        </button>
+      </div>
+    </div>
+    <div
+      v-ripple
+      class="mt-32">
       <button
         class="p-4 text-white font-bold uppercase bg-green-500 rounded
         hover:shadow-xl transform hover:-translate-y-1 all
