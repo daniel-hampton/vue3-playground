@@ -1,5 +1,5 @@
 <template>
-  <div class="about mb-64">
+  <div class="about mb-64 text-center">
     <h1>This is a fun only space!</h1>
     <div>
       <IconfloatingLoader

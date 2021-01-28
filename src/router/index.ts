@@ -25,6 +25,15 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Animations.vue"),
   },
+  {
+    path: "/twlayout",
+    name: "Tailwind Layout",
+    // route level code-splitting
+    // this generates a separate chunk (animations.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/TWLayout.vue"),
+  },
 ];
 
 const router = createRouter({
